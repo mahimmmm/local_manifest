@@ -7,8 +7,8 @@
         <remote name="mahimmmm"
                 fetch="https://github.com/mahimmmm" />
         
-        <remote name="ImSurajxD"
-                fetch="https://gitlab.com/ImSurajxD" />
+        <remote name="clang"
+                fetch="https://gitlab.com/Amritorock" />
     
         
 <!-- device trees -->
@@ -16,6 +16,6 @@
         <project path="device/realme/r5x" name="device_realme_r5x" remote="mahimmmm" revision="RD-13" />
         <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="mahimmmm" revision="13-wip" />
         <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mahimmmm" revision="tombstone" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 
 </manifest>
